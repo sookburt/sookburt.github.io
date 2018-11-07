@@ -1,0 +1,4 @@
+# hide all files within .vscode directory
+.*
+# except .gitignore file itself
+!/.gitignore
