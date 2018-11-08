@@ -50,6 +50,7 @@ header {
     margin: 5px 0;
     float:left;
     border: 1px dashed var(--default-highlight-color);
+    
 }
 
 #headshot img {
@@ -97,6 +98,7 @@ article {
     padding: 10px;
     border: 1px solid var(--default-highlight-color);
 }
+
 article:nth-child(n+1) {
     background: var(--default-highlight-color);
 }
@@ -104,10 +106,6 @@ article:nth-child(n+1) {
 article:hover {
     background:  var(--default-highlight-color) url("http://placekitten.com/g/300/250") no-repeat center;
     opacity: 0.3;
-}
-
-main div {
-   border: 1px solid var(--default-highlight-color); 
 }
 
 footer {
@@ -129,6 +127,10 @@ footer ul{
 footer ul li {
     padding: 0 20px 0 0;
     color: var(--default-highlight-color);
+}
+
+footer ul li a i {
+    font-size: 24;
 }
 
 a:visited {
