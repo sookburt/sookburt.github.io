@@ -4,10 +4,10 @@
 
 :root {
     --default-border-width: 1.3px;
-    --default-highlight-color: rgba(196, 103, 33, 0.8);
+    --default-highlight-color: rgb(255,119,0); /*rgba(196, 103, 33, 0.8);*/
     --default-visited-link-color: rgba(138, 73, 23, 0.8);
-    --default-background-color: rgb(219,206,186);
-    --default-font-color: rgb(41,50,76);
+    --default-background-color:  rgb(255, 244, 214);/*rgb(219,206,186);*/
+    --default-font-color: rgb(04,67,109); /*rgb(41,50,76);*/
     --base-font-size:14px;
 }
 
@@ -95,7 +95,7 @@ header {
 h1 {
     font-family: Raleway;
     font-size: 300%;
-    font-weight: 300;
+    font-weight: 550;
     margin: 5px;
     display: block;
 }
