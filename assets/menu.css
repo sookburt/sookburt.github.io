@@ -14,7 +14,6 @@ nav {
     width: auto;
     height: 100%;
     margin: 0 15px;
-    background-color: red; 
 }
 
 nav ul{
@@ -38,45 +37,42 @@ nav ul li a {
 }
 
 /* HAMBURGER STUFF */
-.hamburger {
-	background-color: #6A5ACD;
-	width: 50px;
-	height: 50px;
-	padding: 10px;
-	margin: 30px;
-	-webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out; 
-	float:left;
+#hamburger {
+	background-color: var(--default-highlight-color);
+	width: 20px;
+	height: 18px;
+	padding: 2.5px;
+  margin: 10px;
+	float:right;
 }
 
-.hamburger:hover {
+#hamburger:hover {
 	cursor: pointer;
 }
 
 .line{
-  width: 50px;
-  height: 5px;
-  background-color: #D3D3D3;
+  width: 15px;
+  height: 2px;
+  background-color: var(--default-background-color);
   display: block;
-  margin: 8px auto;
+  margin: 3px auto;
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-#boxone:hover .line:nth-child(1){
-  -webkit-transform: translateY(13px) rotate(45deg);
-  -ms-transform: translateY(13px) rotate(45deg);
-  -o-transform: translateY(13px) rotate(45deg);
-  transform: translateY(13px) rotate(45deg);
+#hamburger:hover .line:nth-child(1){
+  -webkit-transform: translateY(5px) rotate(45deg) ;
+  -ms-transform: translateY(5px) rotate(45deg);
+  -o-transform: translateY(5px) rotate(45deg);
+  transform: translateY(5px) rotate(45deg);
 }
-#boxone:hover .line:nth-child(2) {
+#hamburger:hover .line:nth-child(2) {
 	opacity: 0;
 }
-#boxone:hover .line:nth-child(3){
-  -webkit-transform: translateY(-13px) rotate(-45deg);
-  -ms-transform: translateY(-13px) rotate(-45deg);
-  -o-transform: translateY(-13px) rotate(-45deg);
-  transform: translateY(-13px) rotate(-45deg);
+#hamburger:hover .line:nth-child(3){
+  -webkit-transform: translateY(-5px) rotate(-45deg);
+  -ms-transform: translateY(-5px) rotate(-45deg);
+  -o-transform: translateY(-5px) rotate(-45deg);
+  transform: translateY(-5px) rotate(-45deg);
 }
