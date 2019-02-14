@@ -52,7 +52,7 @@ nav ul li a {
 
 .line{
   width: 15px;
-  height: 2px;
+  height: 1.8px;
   background-color: var(--default-background-color);
   display: block;
   margin: 3px auto;
