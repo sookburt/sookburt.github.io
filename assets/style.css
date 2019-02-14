@@ -106,23 +106,6 @@ h1 {
     display: block;
 }
 
-nav {
-    width: auto;
-    margin: 0 15px;
-}
-
-nav ul li {
-    padding: 10px;
-}
-
-nav ul{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 10px;
-}  
-
 main {
     grid-area: main;
 
@@ -215,6 +198,6 @@ a:hover, a:focus {
     color: var(--default-font-color);
 }
 
-a {
+footer a {
     color: var(--default-highlight-color);
 }
