@@ -133,7 +133,8 @@ article {
 }
 
 article:hover, article:active {
-    background:  var(--default-box-shadow-color) url("http://placekitten.com/g/300/250") no-repeat center;
+    /*background:  var(--default-box-shadow-color) url("http://placekitten.com/g/300/250") no-repeat center;*/
+    background:  var(--default-box-shadow-color) url("crocus.jpg") no-repeat center;
     background-size: cover;
     border-radius: 0.3em;
     color: var(--default-font-color);
